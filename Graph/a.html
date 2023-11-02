@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+
+<body>
+  <div>
+    <p id="para">
+      Test
+    </p>
+
+    <button id="buttonOn">
+      On
+    </button>
+
+    <button id="buttonOff">
+      Off
+    </button>
+  </div>
+
+  <div>
+
+  </div>
+
+  <script>
+    document.getElementById("buttonOn").onclick = function(){
+        document.getElementById("para").innerHTML = "Chó Khánh";
+    }
+
+    document.getElementById("buttonOff").onclick = function(){
+        document.getElementById("para").innerHTML = "     ";
+    }
+  </script>
+
+</body>
+</html>
